@@ -1,0 +1,13 @@
+name: BattleCommandLimiter
+
+main: com.alk.battleCommandLimiter.BattleCommandLimiter
+
+version: 1.0.5.1
+
+author: Alkarin
+description: "Track and limit commands"
+softdepend: [Permissions]
+commands:
+    commandlimiter:
+        aliases: [cl]
+        description: stuff

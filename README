@@ -1,0 +1,24 @@
+Rule based way to limit player commands
+
+### Rule FAQ
+# Types of rules: time, money, items
+# Rules are checked in order, 1,2,...,x
+# you can put in multiple rules by putting AND in between
+# You can specify a set of rules that you can use to "skip" or "pay" your way past rules.  specified with 'payFromRule'
+### More rule explanations and examples
+# Time : <times>x every <sec,min,hour,day>
+#     example1: 3x every 60 sec
+#     example2: 4x every 1 day
+# Money: <amount> money
+#     example1: 50 money
+# Items: items
+# but then requires a list of items
+#     example
+#     rule1: items
+#     rule1_items:
+#       - diamond: 3
+#       - obsidian: 2
+### Composite Rules
+# you can put in multiple rules by putting AND in between
+# example: 1x every 15 seconds AND 5 money
+
